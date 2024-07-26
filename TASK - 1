@@ -1,0 +1,13 @@
+import matplotlib.pyplot as bar
+
+Companies = ['Apple', 'Microsoft', 'Alphabet', 'Amazon', 'Tesla']
+capital(in dollers) = [2,901B, 2,522B, 1,917B, 1,691B, 1,061B]
+
+bar.figure(figsize=(10, 6))
+bar.bar(Companies, capital(in dollers), color=['pink', 'green', 'brown', 'purple', 'black'])
+
+bar.title('Biggest Companies in the world since 2000 by market capitalisation')
+bar.xlabel('Compaines')
+bar.ylabel('capital(in dollers)')
+
+bar.show()
